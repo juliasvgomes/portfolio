@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowUpRight } from "lucide-react"; // <- ícone
+
 export function About() {
   return (
     <section className="bg-[#171023] py-20">
@@ -25,17 +28,18 @@ export function About() {
 
             <p className="text-[#878EA1] text-base leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
 
-            <a
-              href="/about"
-              className="text-[#F5F6F6] font-medium hover:underline"
+            <Link
+              to="/about"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#413A4F] text-[#F5F6F6] rounded-lg hover:bg-[#55515c] transition"
             >
-              More about me →
-            </a>
+              More About Me
+              <ArrowUpRight size={18} />
+            </Link>
           </div>
         </div>
       </div>

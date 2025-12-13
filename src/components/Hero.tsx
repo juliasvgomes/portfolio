@@ -1,13 +1,11 @@
+import Avatar from "../assets/my-photo.jpeg";
+
 export default function Hero() {
   return (
     <section className="flex flex-col items-center text-center px-6 pt-36 pb-24 bg-[#171023]">
       {/* AVATAR */}
       <div className="relative w-24 h-24 mb-8">
-        <img
-          src="/src/assets/my-photo.jpeg"
-          alt="Avatar Júlia Soares"
-          className="w-full h-full rounded-full object-cove"
-        />
+        <img src={Avatar} alt="Avatar" className="w-24 h-24 rounded-full" />
 
         {/* Vetor de código no centro */}
         <img
