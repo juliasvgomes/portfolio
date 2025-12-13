@@ -1,4 +1,5 @@
 import Avatar from "../assets/my-photo.jpeg";
+import Vector from "../assets/Vector.svg"
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
 
         {/* Vetor de código no centro */}
         <img
-          src="/src/assets/Vector.svg"
+          src={Vector}
           alt="Ícone código"
           className="absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 w-8 h-8"
         />
