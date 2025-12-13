@@ -36,7 +36,7 @@ export default function Hero() {
 
       {/* BOTÃO */}
       <a
-        href="/public/Curriculo_Julia.pdf" target="_blank" rel="noopener noreferrer" 
+        href="/Curriculo_Julia.pdf" target="_blank" rel="noopener noreferrer" 
         className="mt-6 flex items-center justify-center w-[144px] h-[56px] bg-[#413A4F] text-[#F5F6F6] font-bebas text-lg rounded-lg hover:opacity-90 transition"
       >
        ver CV ↗
