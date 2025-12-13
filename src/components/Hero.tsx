@@ -1,0 +1,47 @@
+export default function Hero() {
+  return (
+    <section className="flex flex-col items-center text-center px-6 pt-36 pb-24 bg-[#171023]">
+      {/* AVATAR */}
+      <div className="relative w-24 h-24 mb-8">
+        <img
+          src="/src/assets/my-photo.jpeg"
+          alt="Avatar Júlia Soares"
+          className="w-full h-full rounded-full object-cove"
+        />
+
+        {/* Vetor de código no centro */}
+        <img
+          src="/src/assets/Vector.svg"
+          alt="Ícone código"
+          className="absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 w-8 h-8"
+        />
+      </div>
+
+      {/* TEXTO HELLO WORLD */}
+      <h1 className="text-white font-code text-[20px] sm:text-[48px] md:text-[18px] leading-[64px]">
+        Hello World! Meu nome é
+        <span className="text-primary"> Júlia Soares</span> e sou
+      </h1>
+
+      {/* CARGO */}
+      <h2 className="font-bebas uppercase text-white text-[36px] sm:text-[44px] md:text-[56px] tracking-wider leading-tight">
+        Desenvolvedora Front-end
+      </h2>
+
+      {/* DESCRIÇÃO */}
+      <p className="max-w-3xl text-[#878EA1] text-base sm:text-lg leading-relaxed">
+        Transformo necessidades em aplicações reais, envolventes e funcionais.
+        Desenvolvo sistemas através da minha paixão pela tecnologia,
+        contribuindo com soluções inovadoras e eficazes para desafios complexos.
+      </p>
+
+      {/* BOTÃO */}
+      <a
+        href="/public/Curriculo_Julia.pdf" target="_blank" rel="noopener noreferrer" 
+        className="mt-6 flex items-center justify-center w-[144px] h-[56px] bg-[#413A4F] text-[#F5F6F6] font-bebas text-lg rounded-lg hover:opacity-90 transition"
+      >
+       ver CV ↗
+      </a>
+    </section>
+  );
+}
