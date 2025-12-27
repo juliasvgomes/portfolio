@@ -9,59 +9,62 @@ interface Course {
 
 const courses: Course[] = [
   {
-    title: "Curso de Front-End Moderno",
-    company: "Escola XYZ",
-    date: "Dezembro 2024",
-    certificateLink: "/certificates/frontend.pdf",
+    title: "Curso de Desenvolvimento Front-End",
+    company: "Unilavras",
+    date: "Março 2023",
+    certificateLink: "/public/certificates/frontend.pdf",
   },
   {
-    title: "React Avançado",
-    company: "Escola ABC",
+    title: "Full Stack Developer",
+    company: "DIO",
     date: "Agosto 2024",
-    certificateLink: "/certificates/react.pdf",
+    certificateLink: "/public/certificates/fullstack.pdf",
   },
   {
-    title: "Tailwind CSS e UI",
-    company: "Plataforma Online",
-    date: "Julho 2024",
-    certificateLink: "/certificates/tailwind.pdf",
+    title: "Engenharia de Dados com Python",
+    company: "DIO",
+    date: "Setembro 2024",
+    certificateLink: "/public/certificates/dados.pdf",
   },
     {
-    title: "Tailwind CSS e UI",
-    company: "Plataforma Online",
-    date: "Julho 2024",
-    certificateLink: "/certificates/tailwind.pdf",
+    title: "Desafio Full-Stack com IA",
+    company: "Rocketseat",
+    date: "Outubro 2025",
+    certificateLink: "/public/certificates/fullstackeIA.pdf",
   },
     {
-    title: "Tailwind CSS e UI",
-    company: "Plataforma Online",
-    date: "Julho 2024",
-    certificateLink: "/certificates/tailwind.pdf",
+    title: "Formação UX Designer",
+    company: "DIO",
+    date: "Novembro 2025",
+    certificateLink: "/public/certificates/ux.pdf",
   },
     {
-    title: "Tailwind CSS e UI",
-    company: "Plataforma Online",
-    date: "Julho 2024",
-    certificateLink: "/certificates/tailwind.pdf",
+    title: "Formação React",
+    company: "DIO",
+    date: "Novembro 2025",
+    certificateLink: "/public/certificates/react.pdf",
   },
   
 ];
 
 export function Courses() {
   return (
-    <section className="bg-[#171023] px-8 py-16">
+    <section className="bg-[#171023] py-20 px-6 md:px-16 border-b border-[#413A4F]/40">
+      <div className="container mx-auto px-4">
       {/* Título igual aos outros */}
-      <div className="flex items-center gap-6 mb-12">
-        <h2 className="font-bebas text-[48px] text-[#F5F6F6]">Cursos Complementares</h2>
-
-      </div>
+        <div className="md:w-1/3 flex items-start">
+          <div className="flex items-center gap-6">
+            <h2 className="font-bebas text-[48px] text-[#F5F6F6]">Cursos</h2>
+            <div className="flex-1 h-px bg-[#413A4F]" />
+          </div>
+        </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
         {courses.map((course, index) => (
           <div
             key={index}
-            className="bg-[#222222] rounded-xl p-6 flex flex-col justify-between hover:shadow-lg transition"
+            className="bg-[#352d47] rounded-xl p-6 flex flex-col justify-between hover:shadow-lg transition"
           >
             <div>
               <h3 className="text-[#F5F6F6] font-semibold text-lg">{course.title}</h3>
@@ -73,13 +76,14 @@ export function Courses() {
               <a
                 href={course.certificateLink}
                 target="_blank"
-                className="text-[#F5F6F6] hover:text-[#D3E97A] transition"
+                className="text-[#F5F6F6] hover:text-[#CB30E0] transition"
               >
                 <ArrowUpRight size={18} />
               </a>
             </div>
           </div>
         ))}
+      </div>        
       </div>
     </section>
   );

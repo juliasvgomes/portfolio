@@ -1,11 +1,13 @@
 import { ProjectCard } from "./ProjectCard";
 
-import projeto from "../assets/projeto.png";
+import projeto1 from "../assets/projeto1.png";
+import projeto2 from "../assets/projeto2.png";
+import projeto3 from "../assets/projeto3.png";
 
 
 export function Projects() {
   return (
-    <section id="projetos"className="bg-[#171023] py-20">
+    <section id="projetos"className="bg-[#171023] py-20 border-b border-[#413A4F]/40">
       <div className="container mx-auto px-4">
         {/* Título */}
         <h2 className="font-bebas text-white text-5xl mb-12 text-left">
@@ -20,27 +22,27 @@ export function Projects() {
           lg:grid-cols-3
         ">
           <ProjectCard
-            image={projeto}
-            title="Projeto 1"
-            technologies={["React", "TypeScript", "Tailwind"]}
-            demoUrl="https://seuprojeto.com"
-            githubUrl="https://github.com/seugithub"
+            image={projeto1}
+            title="Projeto Let me ask"
+            technologies={["React", "TypeScript", "Node.js", "PostgreSQL"]}
+            demoUrl="https://let-me-ask-one.vercel.app/"
+            githubUrl="https://github.com/juliasvgomes/let-me-ask"
           />
 
           <ProjectCard
-            image={projeto}
-            title="Projeto 2"
-            technologies={["React", "Vite", "API"]}
-            demoUrl="https://seuprojeto.com"
-            githubUrl="https://github.com/seugithub"
+            image={projeto2}
+            title="Projeto Donalds"
+            technologies={["React", "Next.js", "Node.js", "TypeScript"]}
+            demoUrl="https://restaurant-psi-opal.vercel.app/donalds"
+            githubUrl="https://github.com/juliasvgomes/restaurant"
           />
 
           <ProjectCard
-            image={projeto}
-            title="Projeto 3"
-            technologies={["React", "UI/UX"]}
-            demoUrl="https://seuprojeto.com"
-            githubUrl="https://github.com/seugithub"
+            image={projeto3}
+            title="Projeto Receitas"
+            technologies={["React", "Manus"]}
+            demoUrl="https://receitasite-mgivglgj.manus.space/"
+            githubUrl="https://github.com/juliasvgomes/receitas"
           />
         </div>
       </div>

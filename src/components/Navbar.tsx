@@ -26,8 +26,8 @@ export default function Navbar() {
 
         {/* MENU DESKTOP */}
         <ul className="hidden md:flex gap-10 font-bebas uppercase text-[18px] tracking-wider text-[#C7C7C7]">
-          <li className="cursor-pointer hover:text-white transition">
-            <a href="/about">Sobre</a>
+          <li className="cursor-pointer hover:text-white transition" onClick={()=> scrollToSection("sobre")}>
+            Sobre
           </li>
           <li
             className="cursor-pointer hover:text-white transition"

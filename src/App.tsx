@@ -23,6 +23,9 @@ function App() {
               <Hero />
               <Projects />
               <About/>
+              <Skills/>
+              <Courses/>
+              <Experience/>
               <Contact />
               <Footer />
             </div>

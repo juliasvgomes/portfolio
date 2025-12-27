@@ -3,7 +3,7 @@ import Vector from "../assets/Vector.svg"
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center text-center px-6 pt-36 pb-24 bg-[#171023]">
+    <section className="flex flex-col items-center text-center px-6 pt-20 pb-24 bg-[#171023] border-b border-[#413A4F]/40">
       {/* AVATAR */}
       <div className="relative w-24 h-24 mb-8">
         <img src={Avatar} alt="Avatar" className="w-24 h-24 rounded-full" />
@@ -17,10 +17,10 @@ export default function Hero() {
       </div>
 
       {/* TEXTO HELLO WORLD */}
-      <h1 className="text-white font-code text-[20px] sm:text-[48px] md:text-[18px] leading-[64px]">
+      <p className="text-[#ffffffaf] font-code text-[20px] sm:text-[48px] md:text-[18px] leading-[64px]">
         Hello World! Meu nome é
-        <span className="text-primary"> Júlia Soares</span> e sou
-      </h1>
+        <span className="text-primary text-[#CB30E0]"> Júlia Soares</span> e sou
+      </p>
 
       {/* CARGO */}
       <h2 className="font-bebas uppercase text-white text-[36px] sm:text-[44px] md:text-[56px] tracking-wider leading-tight">
