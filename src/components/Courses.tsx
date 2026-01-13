@@ -50,13 +50,10 @@ export function Courses() {
   return (
     <section className="bg-[#171023] py-20 px-6 md:px-16 border-b border-[#413A4F]/40">
       <div className="container mx-auto px-4">
-        {/* Título igual aos outros */}
-        <div className="md:w-1/3 flex items-start">
-          <div className="flex items-center gap-6">
-            <h2 className="font-bebas text-[48px] text-[#F5F6F6]">Cursos</h2>
-            <div className="flex-1 h-px bg-[#413A4F]" />
-          </div>
-        </div>
+        {/* Título */}
+        <h2 className="font-bebas text-white text-5xl mb-12 text-left">
+          Cursos
+        </h2>
 
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">

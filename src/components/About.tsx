@@ -19,13 +19,13 @@ export function About() {
             items-start
           "
         >
-          {/* Título */}
-          <h2 className="font-bebas text-white text-5xl md:col-span-1">
-            Sobre mim
-          </h2>
+        {/* Título */}
+        <h2 className="font-bebas text-white text-5xl mb-12 text-left">
+          Sobre
+        </h2>
 
           {/* Conteúdo */}
-          <div className="md:col-span-2 max-w-2xl">
+          <div className="md:col-span-2 ">
             <h3 className="text-white text-xl font-medium mb-4">
               Sou desenvolvedora front-end, formada em Análise e Desenvolvimento
               de Sistemas, com foco na criação de interfaces modernas,
