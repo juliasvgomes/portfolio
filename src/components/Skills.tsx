@@ -26,34 +26,34 @@ export function Skills() {
 
           {/* Tags com tecnologias */}
           <div className="flex flex-wrap gap-4 mt-4">
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiReact size={24} /> React
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiJavascript1 size={24} /> JavaScript
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiHtml5 size={24} /> HTML
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiCss3 size={24} /> CSS
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiPython size={24} /> Python
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiGit size={24} /> Git
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiAngularSimple size={24} /> Angular
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiDocker size={24} /> Docker
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiNodejs size={24} /> Node.js
             </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#222222] text-[#F5F6F6] rounded-full">
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiNpm size={24} /> npm
             </span>                                                
           </div>

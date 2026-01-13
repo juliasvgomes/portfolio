@@ -1,9 +1,14 @@
-{/*import { Link } from "react-router-dom";
-import { ArrowUpRight } from "lucide-react"; // <- ícone*/}
+{
+  /*import { Link } from "react-router-dom";
+import { ArrowUpRight } from "lucide-react"; // <- ícone*/
+}
 
 export function About() {
   return (
-    <section id="sobre" className="bg-[#171023] py-20 border-b border-[#413A4F]/50">
+    <section
+      id="sobre"
+      className="bg-[#171023] py-20 border-b border-[#413A4F]/50"
+    >
       <div className="container mx-auto px-4">
         <div
           className="
@@ -22,14 +27,36 @@ export function About() {
           {/* Conteúdo */}
           <div className="md:col-span-2 max-w-2xl">
             <h3 className="text-white text-xl font-medium mb-4">
-              Sou desenvolvedora front-end, formada em Análise e Desenvolvimento de Sistemas, com foco na criação de interfaces modernas, responsivas e centradas no usuário.
+              Sou desenvolvedora front-end, formada em Análise e Desenvolvimento
+              de Sistemas, com foco na criação de interfaces modernas,
+              responsivas e centradas no usuário.
             </h3>
 
             <p className="text-[#878EA1] text-base leading-relaxed mb-6">
-              Tenho experiência no desenvolvimento de interfaces web responsivas e funcionais, utilizando tecnologias modernas de front-end. Sou curiosa, dedicada e estou sempre em busca de aprendizado contínuo, com foco em evoluir como desenvolvedora e entregar soluções de qualidade.
+              Durante minha trajetória acadêmica e profissional, tive contato
+              com diferentes tecnologias e frameworks voltados ao
+              desenvolvimento de aplicações web. Atuei como Estagiária de
+              Desenvolvimento Front-End, participando da construção e manutenção
+              de interfaces responsivas, além de revisões de código e processos
+              de controle de qualidade, sempre buscando boas práticas e entregas
+              consistentes.
             </p>
 
-           {/* <Link
+            <p className="text-[#878EA1] text-base leading-relaxed mb-6">
+              Também atuei como Analista de TI, onde contribuí com melhorias em
+              sistemas internos, prestei suporte técnico e colaborei diretamente
+              com usuários e equipes, garantindo o bom funcionamento das
+              soluções e uma comunicação clara entre áreas.
+            </p>
+
+            <p className="text-[#878EA1] text-base leading-relaxed">
+              Sou uma profissional curiosa, dedicada e em constante aprendizado,
+              sempre buscando evoluir tecnicamente e entregar soluções bem
+              estruturadas, funcionais e alinhadas às necessidades do usuário e
+              do negócio. Tenho interesse em atuar em projetos que valorizem
+              colaboração, boas práticas e crescimento contínuo.
+            </p>
+            {/* <Link
               to="/about"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#413A4F] text-[#F5F6F6] rounded-lg hover:bg-[#55515c] transition"
             >

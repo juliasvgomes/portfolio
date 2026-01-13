@@ -16,22 +16,28 @@ export function ProjectCard({
   githubUrl,
 }: ProjectCardProps) {
   return (
-    <div className="
-      bg-[#1F1A2B]
-      rounded-xl
-      overflow-hidden
-      shadow-lg
-      transition
-      hover:-translate-y-1 hover:shadow-xl
-    ">
+    <a
+      href={demoUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        group
+        bg-[#1F1A2B]
+        rounded-xl
+        overflow-hidden
+        shadow-lg
+        transition
+        hover:-translate-y-1 hover:shadow-xl
+        focus:outline-none focus:ring-2 focus:ring-[#CB30E0]
+        block
+      "
+    >
       {/* Imagem */}
-      <a href={demoUrl} target="_blank" rel="noopener noreferrer">
-        <img
-          src={image}
-          alt={title}
-          className="h-48 w-full object-cover"
-        />
-      </a>
+      <img
+        src={image}
+        alt={title}
+        className="h-48 w-full object-cover"
+      />
 
       {/* Conteúdo */}
       <div className="p-5 flex flex-col gap-4">
@@ -52,27 +58,25 @@ export function ProjectCard({
         </div>
 
         {/* Ações */}
-        <div className="mt-2 flex items-center gap-4">
-
+        <div className="mt-2 flex items-center justify-between">
+          {/* GitHub (ação secundária) */}
           <a
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#F5F6F6] hover:opacity-80"
+            onClick={(e) => e.stopPropagation()}
+            className="text-[#F5F6F6] hover:text-[#CB30E0] transition"
           >
             <Github size={20} />
           </a>
-            <a
-            href={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-sm text-[#F5F6F6] hover:underline"
-          >
+
+          {/* Indicador visual */}
+          <div className="flex items-center gap-1 text-sm text-[#F5F6F6] group-hover:text-[#CB30E0] transition">
             <ExternalLink size={16} />
             Ver projeto
-          </a>
+          </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
