@@ -3,6 +3,7 @@ import { Github, ExternalLink } from "lucide-react";
 interface ProjectCardProps {
   image: string;
   title: string;
+  description: string;
   technologies: string[];
   demoUrl: string;
   githubUrl: string;
@@ -11,6 +12,7 @@ interface ProjectCardProps {
 export function ProjectCard({
   image,
   title,
+  description,
   technologies,
   demoUrl,
   githubUrl,
@@ -44,6 +46,10 @@ export function ProjectCard({
         <h3 className="font-bebas text-2xl text-white">
           {title}
         </h3>
+
+        <p className="text-sm leading-relaxed text-[#C7C7C7]">
+          {description}
+        </p>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
