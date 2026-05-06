@@ -1,5 +1,6 @@
 
-import { DiReact, DiJavascript1, DiHtml5, DiCss3, DiPython, DiGit, DiAngularSimple, DiDocker, DiNodejs, DiNpm} from "react-icons/di";
+import { DiReact, DiJavascript1, DiHtml5, DiCss3, DiPython, DiGit, DiJava , DiDocker, DiNodejs, DiNpm} from "react-icons/di";
+import { FaFigma } from "react-icons/fa";
 
 export function Skills() {
   return (
@@ -26,35 +27,40 @@ export function Skills() {
           {/* Tags com tecnologias */}
           <div className="flex flex-wrap gap-4 mt-4">
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
-              <DiReact size={24} /> React
-            </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
-              <DiJavascript1 size={24} /> JavaScript
-            </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiHtml5 size={24} /> HTML
             </span>
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiCss3 size={24} /> CSS
             </span>
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
-              <DiPython size={24} /> Python
+              <DiJavascript1 size={24} /> JavaScript
+            </span>
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
+              <DiReact size={24} /> React
             </span>
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiGit size={24} /> Git
-            </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
-              <DiAngularSimple size={24} /> Angular
-            </span>
-            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
-              <DiDocker size={24} /> Docker
             </span>
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiNodejs size={24} /> Node.js
             </span>
             <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
               <DiNpm size={24} /> npm
-            </span>                                                
+            </span> 
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
+              <DiPython size={24} /> Python
+            </span>
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
+              <DiJava size={24} /> Java
+            </span>
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
+              <FaFigma size={24} /> Figma
+            </span>
+            <span className="flex items-center gap-2 px-3 py-2 bg-[#413A4F] text-[#CB30E0] rounded-full">
+              <DiDocker size={24} /> Docker
+            </span>
+            
+                                                           
           </div>
         </div>
       </div>     

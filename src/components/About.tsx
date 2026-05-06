@@ -27,7 +27,7 @@ export function About() {
           {/* Conteúdo */}
           <div className="md:col-span-2 ">
             <h3 className="text-white text-xl font-medium mb-4">
-              Sou desenvolvedora front-end, formada em Análise e Desenvolvimento
+              Sou desenvolvedora de software, formada em Análise e Desenvolvimento
               de Sistemas, com foco na criação de interfaces modernas,
               responsivas e centradas no usuário.
             </h3>
@@ -47,6 +47,13 @@ export function About() {
               sistemas internos, prestei suporte técnico e colaborei diretamente
               com usuários e equipes, garantindo o bom funcionamento das
               soluções e uma comunicação clara entre áreas.
+            </p>
+
+            <p className="text-[#878EA1] text-base leading-relaxed mb-6">
+              Atualmente estou em uma fase de expansão profissional, aprofundando
+              meus conhecimentos em React e iniciando minha jornada no desenvolvimento
+              Fullstack com Java. Busco integrar as melhores práticas do front-end com
+              soluções robustas no back-end, criando aplicações completas e escaláveis.
             </p>
 
             <p className="text-[#878EA1] text-base leading-relaxed">

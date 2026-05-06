@@ -16,14 +16,15 @@ export default function Hero() {
 
       {/* CARGO */}
       <h2 className="font-bebas uppercase text-white text-[36px] sm:text-[44px] md:text-[56px] tracking-wider leading-tight">
-        Desenvolvedora Front-end
+        Desenvolvedora de Software
       </h2>
 
       {/* DESCRIÇÃO */}
       <p className="max-w-3xl text-[#878EA1] text-base sm:text-lg leading-relaxed">
-        Transformo ideias em aplicações funcionais e intuitivas. Desenvolvo
-        interfaces modernas com foco em usabilidade, performance e soluções
-        práticas para desafios reais.
+        Atualmente, Desenvolvedora Front-end com experiência em React, expandindo
+        meus horizontes para o desenvolvimento Fullstack com foco em Java. Transformo
+        ideias em aplicações funcionais e intuitivas, desenvolvendo interfaces modernas
+        com foco em usabilidade, performance e soluções práticas para desafios reais.
       </p>
 
       {/* BOTÃO */}
